@@ -11,196 +11,103 @@ Discarded input sections
                 0x0000000000000000       0x10 build/asm/header.s.o
  .options       0x0000000000000000       0x20 build/src/1000.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1000.c.o
- .mdebug        0x0000000000000000     0xe234 build/src/1000.c.o
+ .mdebug        0x0000000000000000     0xe458 build/src/1000.c.o
  .options       0x0000000000000000       0x20 build/src/1130.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1130.c.o
- .mdebug        0x0000000000000000     0xe9f0 build/src/1130.c.o
- .reginfo       0x0000000000000000       0x18 build/asm/1870.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/1870.s.o
- .pdr           0x0000000000000000        0x0 build/asm/1870.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/1870.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/3B40.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/3B40.s.o
- .pdr           0x0000000000000000        0x0 build/asm/3B40.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/3B40.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/3F50.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/3F50.s.o
- .pdr           0x0000000000000000        0x0 build/asm/3F50.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/3F50.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/9D50.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/9D50.s.o
- .pdr           0x0000000000000000        0x0 build/asm/9D50.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/9D50.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/DAE0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/DAE0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/DAE0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/DAE0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/E2A0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/E2A0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/E2A0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/E2A0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/113F0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/113F0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/113F0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/113F0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/13DE0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/13DE0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/13DE0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/13DE0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/140D0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/140D0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/140D0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/140D0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/15150.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/15150.s.o
- .pdr           0x0000000000000000        0x0 build/asm/15150.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/15150.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/17360.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/17360.s.o
- .pdr           0x0000000000000000        0x0 build/asm/17360.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/17360.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/1B200.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/1B200.s.o
- .pdr           0x0000000000000000        0x0 build/asm/1B200.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/1B200.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/1E570.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/1E570.s.o
- .pdr           0x0000000000000000        0x0 build/asm/1E570.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/1E570.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/1FA00.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/1FA00.s.o
- .pdr           0x0000000000000000        0x0 build/asm/1FA00.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/1FA00.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/20DA0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/20DA0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/20DA0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/20DA0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/216E0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/216E0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/216E0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/216E0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/272D0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/272D0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/272D0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/272D0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/27600.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/27600.s.o
- .pdr           0x0000000000000000        0x0 build/asm/27600.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/27600.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/27A90.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/27A90.s.o
- .pdr           0x0000000000000000        0x0 build/asm/27A90.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/27A90.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/28D20.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/28D20.s.o
- .pdr           0x0000000000000000        0x0 build/asm/28D20.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/28D20.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/29150.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/29150.s.o
- .pdr           0x0000000000000000        0x0 build/asm/29150.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/29150.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/2B0F0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/2B0F0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/2B0F0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/2B0F0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/337B0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/337B0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/337B0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/337B0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/35EC0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/35EC0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/35EC0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/35EC0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/363B0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/363B0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/363B0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/363B0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/36DB0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/36DB0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/36DB0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/36DB0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/36E60.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/36E60.s.o
- .pdr           0x0000000000000000        0x0 build/asm/36E60.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/36E60.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/376C0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/376C0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/376C0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/376C0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/37980.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/37980.s.o
- .pdr           0x0000000000000000        0x0 build/asm/37980.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/37980.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/37AD0.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/37AD0.s.o
- .pdr           0x0000000000000000        0x0 build/asm/37AD0.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/37AD0.s.o
- .reginfo       0x0000000000000000       0x18 build/asm/37E40.s.o
- .MIPS.abiflags
-                0x0000000000000000       0x18 build/asm/37E40.s.o
- .pdr           0x0000000000000000        0x0 build/asm/37E40.s.o
- .gnu.attributes
-                0x0000000000000000       0x10 build/asm/37E40.s.o
+ .mdebug        0x0000000000000000     0xec18 build/src/1130.c.o
+ .options       0x0000000000000000       0x20 build/src/1870.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/1870.c.o
+ .mdebug        0x0000000000000000     0xfa34 build/src/1870.c.o
+ .options       0x0000000000000000       0x20 build/src/3B40.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/3B40.c.o
+ .mdebug        0x0000000000000000     0xe6b0 build/src/3B40.c.o
+ .options       0x0000000000000000       0x20 build/src/3F50.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/3F50.c.o
+ .mdebug        0x0000000000000000    0x1258c build/src/3F50.c.o
+ .options       0x0000000000000000       0x20 build/src/9D50.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/9D50.c.o
+ .mdebug        0x0000000000000000    0x11424 build/src/9D50.c.o
+ .options       0x0000000000000000       0x20 build/src/DAE0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/DAE0.c.o
+ .mdebug        0x0000000000000000     0xea88 build/src/DAE0.c.o
+ .options       0x0000000000000000       0x20 build/src/E2A0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/E2A0.c.o
+ .mdebug        0x0000000000000000    0x10810 build/src/E2A0.c.o
+ .options       0x0000000000000000       0x20 build/src/113F0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/113F0.c.o
+ .mdebug        0x0000000000000000    0x10440 build/src/113F0.c.o
+ .options       0x0000000000000000       0x20 build/src/13DE0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/13DE0.c.o
+ .mdebug        0x0000000000000000     0xe5f4 build/src/13DE0.c.o
+ .options       0x0000000000000000       0x20 build/src/140D0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/140D0.c.o
+ .mdebug        0x0000000000000000     0xf328 build/src/140D0.c.o
+ .options       0x0000000000000000       0x20 build/src/15150.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/15150.c.o
+ .mdebug        0x0000000000000000     0xfad8 build/src/15150.c.o
+ .options       0x0000000000000000       0x20 build/src/17360.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/17360.c.o
+ .mdebug        0x0000000000000000    0x11d9c build/src/17360.c.o
+ .options       0x0000000000000000       0x20 build/src/1B200.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/1B200.c.o
+ .mdebug        0x0000000000000000    0x111e4 build/src/1B200.c.o
+ .options       0x0000000000000000       0x20 build/src/1E570.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/1E570.c.o
+ .mdebug        0x0000000000000000     0xef28 build/src/1E570.c.o
+ .options       0x0000000000000000       0x20 build/src/1FA00.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/1FA00.c.o
+ .mdebug        0x0000000000000000     0xf2c0 build/src/1FA00.c.o
+ .options       0x0000000000000000       0x20 build/src/20DA0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/20DA0.c.o
+ .mdebug        0x0000000000000000     0xe9f0 build/src/20DA0.c.o
+ .options       0x0000000000000000       0x20 build/src/216E0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/216E0.c.o
+ .mdebug        0x0000000000000000    0x12a0c build/src/216E0.c.o
+ .options       0x0000000000000000       0x20 build/src/272D0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/272D0.c.o
+ .mdebug        0x0000000000000000     0xe5f4 build/src/272D0.c.o
+ .options       0x0000000000000000       0x20 build/src/27600.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/27600.c.o
+ .mdebug        0x0000000000000000     0xe60c build/src/27600.c.o
+ .options       0x0000000000000000       0x20 build/src/27A90.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/27A90.c.o
+ .mdebug        0x0000000000000000     0xf4c8 build/src/27A90.c.o
+ .options       0x0000000000000000       0x20 build/src/28D20.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/28D20.c.o
+ .mdebug        0x0000000000000000     0xe608 build/src/28D20.c.o
+ .options       0x0000000000000000       0x20 build/src/29150.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/29150.c.o
+ .mdebug        0x0000000000000000    0x102e8 build/src/29150.c.o
+ .options       0x0000000000000000       0x20 build/src/2B0F0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/2B0F0.c.o
+ .mdebug        0x0000000000000000    0x13a4c build/src/2B0F0.c.o
+ .options       0x0000000000000000       0x20 build/src/337B0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/337B0.c.o
+ .mdebug        0x0000000000000000     0xfd8c build/src/337B0.c.o
+ .options       0x0000000000000000       0x20 build/src/35EC0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/35EC0.c.o
+ .mdebug        0x0000000000000000     0xe6cc build/src/35EC0.c.o
+ .options       0x0000000000000000       0x20 build/src/363B0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/363B0.c.o
+ .mdebug        0x0000000000000000     0xeff0 build/src/363B0.c.o
+ .options       0x0000000000000000       0x20 build/src/36DB0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/36DB0.c.o
+ .mdebug        0x0000000000000000     0xe518 build/src/36DB0.c.o
+ .options       0x0000000000000000       0x20 build/src/36E60.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/36E60.c.o
+ .mdebug        0x0000000000000000     0xe9e8 build/src/36E60.c.o
+ .options       0x0000000000000000       0x20 build/src/376C0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/376C0.c.o
+ .mdebug        0x0000000000000000     0xe478 build/src/376C0.c.o
+ .options       0x0000000000000000       0x20 build/src/37980.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/37980.c.o
+ .mdebug        0x0000000000000000     0xe3a0 build/src/37980.c.o
+ .options       0x0000000000000000       0x20 build/src/37AD0.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/37AD0.c.o
+ .mdebug        0x0000000000000000     0xe5ec build/src/37AD0.c.o
+ .options       0x0000000000000000       0x20 build/src/37E40.c.o
+ .reginfo       0x0000000000000000       0x18 build/src/37E40.c.o
+ .mdebug        0x0000000000000000     0xe398 build/src/37E40.c.o
  .reginfo       0x0000000000000000       0x18 build/asm/37EB0.s.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/asm/37EB0.s.o
@@ -939,37 +846,37 @@ LOAD build/asm/header.s.o
 LOAD build/assets/boot.bin.o
 LOAD build/src/1000.c.o
 LOAD build/src/1130.c.o
-LOAD build/asm/1870.s.o
-LOAD build/asm/3B40.s.o
-LOAD build/asm/3F50.s.o
-LOAD build/asm/9D50.s.o
-LOAD build/asm/DAE0.s.o
-LOAD build/asm/E2A0.s.o
-LOAD build/asm/113F0.s.o
-LOAD build/asm/13DE0.s.o
-LOAD build/asm/140D0.s.o
-LOAD build/asm/15150.s.o
-LOAD build/asm/17360.s.o
-LOAD build/asm/1B200.s.o
-LOAD build/asm/1E570.s.o
-LOAD build/asm/1FA00.s.o
-LOAD build/asm/20DA0.s.o
-LOAD build/asm/216E0.s.o
-LOAD build/asm/272D0.s.o
-LOAD build/asm/27600.s.o
-LOAD build/asm/27A90.s.o
-LOAD build/asm/28D20.s.o
-LOAD build/asm/29150.s.o
-LOAD build/asm/2B0F0.s.o
-LOAD build/asm/337B0.s.o
-LOAD build/asm/35EC0.s.o
-LOAD build/asm/363B0.s.o
-LOAD build/asm/36DB0.s.o
-LOAD build/asm/36E60.s.o
-LOAD build/asm/376C0.s.o
-LOAD build/asm/37980.s.o
-LOAD build/asm/37AD0.s.o
-LOAD build/asm/37E40.s.o
+LOAD build/src/1870.c.o
+LOAD build/src/3B40.c.o
+LOAD build/src/3F50.c.o
+LOAD build/src/9D50.c.o
+LOAD build/src/DAE0.c.o
+LOAD build/src/E2A0.c.o
+LOAD build/src/113F0.c.o
+LOAD build/src/13DE0.c.o
+LOAD build/src/140D0.c.o
+LOAD build/src/15150.c.o
+LOAD build/src/17360.c.o
+LOAD build/src/1B200.c.o
+LOAD build/src/1E570.c.o
+LOAD build/src/1FA00.c.o
+LOAD build/src/20DA0.c.o
+LOAD build/src/216E0.c.o
+LOAD build/src/272D0.c.o
+LOAD build/src/27600.c.o
+LOAD build/src/27A90.c.o
+LOAD build/src/28D20.c.o
+LOAD build/src/29150.c.o
+LOAD build/src/2B0F0.c.o
+LOAD build/src/337B0.c.o
+LOAD build/src/35EC0.c.o
+LOAD build/src/363B0.c.o
+LOAD build/src/36DB0.c.o
+LOAD build/src/36E60.c.o
+LOAD build/src/376C0.c.o
+LOAD build/src/37980.c.o
+LOAD build/src/37AD0.c.o
+LOAD build/src/37E40.c.o
 LOAD build/asm/37EB0.s.o
 LOAD build/asm/37F20.s.o
 LOAD build/asm/38060.s.o
@@ -1145,8 +1052,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080000920                func_80000920
                 0x0000000080000aa0                func_80000AA0
                 0x0000000080000bd4                func_80000BD4
- build/asm/1870.s.o(.text)
- .text          0x0000000080000c70     0x22d0 build/asm/1870.s.o
+ build/src/1870.c.o(.text)
+ .text          0x0000000080000c70     0x22d0 build/src/1870.c.o
                 0x0000000080000c70                func_80000C70
                 0x0000000080000e9c                .L80000E9C
                 0x0000000080000eac                .L80000EAC
@@ -1179,14 +1086,14 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080002edc                .L80002EDC
                 0x0000000080002ef8                .L80002EF8
                 0x0000000080002f14                .L80002F14
- build/asm/3B40.s.o(.text)
- .text          0x0000000080002f40      0x410 build/asm/3B40.s.o
+ build/src/3B40.c.o(.text)
+ .text          0x0000000080002f40      0x410 build/src/3B40.c.o
                 0x0000000080002f40                func_80002F40
                 0x0000000080003184                func_80003184
                 0x000000008000328c                func_8000328C
                 0x00000000800032e4                func_800032E4
- build/asm/3F50.s.o(.text)
- .text          0x0000000080003350     0x5e00 build/asm/3F50.s.o
+ build/src/3F50.c.o(.text)
+ .text          0x0000000080003350     0x5e00 build/src/3F50.c.o
                 0x0000000080003350                func_80003350
                 0x0000000080003494                func_80003494
                 0x0000000080003b20                func_80003B20
@@ -1233,8 +1140,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080008840                func_80008840
                 0x0000000080008970                func_80008970
                 0x0000000080008a40                func_80008A40
- build/asm/9D50.s.o(.text)
- .text          0x0000000080009150     0x3d90 build/asm/9D50.s.o
+ build/src/9D50.c.o(.text)
+ .text          0x0000000080009150     0x3d90 build/src/9D50.c.o
                 0x0000000080009150                func_80009150
                 0x00000000800091e0                func_800091E0
                 0x0000000080009594                func_80009594
@@ -1278,8 +1185,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008000cc30                func_8000CC30
                 0x000000008000cc40                func_8000CC40
                 0x000000008000cc78                func_8000CC78
- build/asm/DAE0.s.o(.text)
- .text          0x000000008000cee0      0x7c0 build/asm/DAE0.s.o
+ build/src/DAE0.c.o(.text)
+ .text          0x000000008000cee0      0x7c0 build/src/DAE0.c.o
                 0x000000008000cee0                func_8000CEE0
                 0x000000008000cef0                func_8000CEF0
                 0x000000008000cfd8                func_8000CFD8
@@ -1289,8 +1196,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008000d3cc                func_8000D3CC
                 0x000000008000d40c                func_8000D40C
                 0x000000008000d528                func_8000D528
- build/asm/E2A0.s.o(.text)
- .text          0x000000008000d6a0     0x3150 build/asm/E2A0.s.o
+ build/src/E2A0.c.o(.text)
+ .text          0x000000008000d6a0     0x3150 build/src/E2A0.c.o
                 0x000000008000d6a0                func_8000D6A0
                 0x000000008000ddbc                func_8000DDBC
                 0x000000008000de54                func_8000DE54
@@ -1312,8 +1219,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080010104                func_80010104
                 0x00000000800104c0                func_800104C0
                 0x0000000080010768                func_80010768
- build/asm/113F0.s.o(.text)
- .text          0x00000000800107f0     0x29f0 build/asm/113F0.s.o
+ build/src/113F0.c.o(.text)
+ .text          0x00000000800107f0     0x29f0 build/src/113F0.c.o
                 0x00000000800107f0                func_800107F0
                 0x0000000080010a4c                func_80010A4C
                 0x0000000080010bc8                func_80010BC8
@@ -1341,13 +1248,13 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080012b68                func_80012B68
                 0x0000000080012b88                func_80012B88
                 0x00000000800130f8                func_800130F8
- build/asm/13DE0.s.o(.text)
- .text          0x00000000800131e0      0x2f0 build/asm/13DE0.s.o
+ build/src/13DE0.c.o(.text)
+ .text          0x00000000800131e0      0x2f0 build/src/13DE0.c.o
                 0x00000000800131e0                func_800131E0
                 0x00000000800131f0                func_800131F0
                 0x0000000080013264                func_80013264
- build/asm/140D0.s.o(.text)
- .text          0x00000000800134d0     0x1080 build/asm/140D0.s.o
+ build/src/140D0.c.o(.text)
+ .text          0x00000000800134d0     0x1080 build/src/140D0.c.o
                 0x00000000800134d0                func_800134D0
                 0x0000000080013500                func_80013500
                 0x00000000800136b8                func_800136B8
@@ -1366,8 +1273,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080014130                func_80014130
                 0x0000000080014318                func_80014318
                 0x00000000800144b4                func_800144B4
- build/asm/15150.s.o(.text)
- .text          0x0000000080014550     0x2210 build/asm/15150.s.o
+ build/src/15150.c.o(.text)
+ .text          0x0000000080014550     0x2210 build/src/15150.c.o
                 0x0000000080014550                func_80014550
                 0x0000000080014994                func_80014994
                 0x0000000080014e04                func_80014E04
@@ -1386,8 +1293,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x00000000800163f4                func_800163F4
                 0x0000000080016578                func_80016578
                 0x000000008001668c                func_8001668C
- build/asm/17360.s.o(.text)
- .text          0x0000000080016760     0x3ea0 build/asm/17360.s.o
+ build/src/17360.c.o(.text)
+ .text          0x0000000080016760     0x3ea0 build/src/17360.c.o
                 0x0000000080016760                func_80016760
                 0x00000000800167b0                func_800167B0
                 0x00000000800168f0                func_800168F0
@@ -1448,8 +1355,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008001a3ec                func_8001A3EC
                 0x000000008001a4ac                func_8001A4AC
                 0x000000008001a56c                func_8001A56C
- build/asm/1B200.s.o(.text)
- .text          0x000000008001a600     0x3370 build/asm/1B200.s.o
+ build/src/1B200.c.o(.text)
+ .text          0x000000008001a600     0x3370 build/src/1B200.c.o
                 0x000000008001a600                func_8001A600
                 0x000000008001a658                func_8001A658
                 0x000000008001a6b4                func_8001A6B4
@@ -1486,8 +1393,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008001d688                func_8001D688
                 0x000000008001d6a8                func_8001D6A8
                 0x000000008001d94c                func_8001D94C
- build/asm/1E570.s.o(.text)
- .text          0x000000008001d970     0x1490 build/asm/1E570.s.o
+ build/src/1E570.c.o(.text)
+ .text          0x000000008001d970     0x1490 build/src/1E570.c.o
                 0x000000008001d970                func_8001D970
                 0x000000008001d9a8                func_8001D9A8
                 0x000000008001da3c                func_8001DA3C
@@ -1500,8 +1407,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008001e7cc                .L8001E7CC
                 0x000000008001e9d0                .L8001E9D0
                 0x000000008001ebd8                .L8001EBD8
- build/asm/1FA00.s.o(.text)
- .text          0x000000008001ee00     0x13a0 build/asm/1FA00.s.o
+ build/src/1FA00.c.o(.text)
+ .text          0x000000008001ee00     0x13a0 build/src/1FA00.c.o
                 0x000000008001ee00                func_8001EE00
                 0x000000008001ee94                func_8001EE94
                 0x000000008001f164                func_8001F164
@@ -1514,16 +1421,16 @@ LOAD build/assets/4C7B0.bin.o
                 0x00000000800200f0                func_800200F0
                 0x00000000800200f8                func_800200F8
                 0x000000008002018c                func_8002018C
- build/asm/20DA0.s.o(.text)
- .text          0x00000000800201a0      0x940 build/asm/20DA0.s.o
+ build/src/20DA0.c.o(.text)
+ .text          0x00000000800201a0      0x940 build/src/20DA0.c.o
                 0x00000000800201a0                func_800201A0
                 0x0000000080020214                func_80020214
                 0x0000000080020428                func_80020428
                 0x0000000080020568                func_80020568
                 0x000000008002099c                func_8002099C
                 0x0000000080020a28                func_80020A28
- build/asm/216E0.s.o(.text)
- .text          0x0000000080020ae0     0x5bf0 build/asm/216E0.s.o
+ build/src/216E0.c.o(.text)
+ .text          0x0000000080020ae0     0x5bf0 build/src/216E0.c.o
                 0x0000000080020ae0                func_80020AE0
                 0x0000000080020b78                func_80020B78
                 0x0000000080021030                func_80021030
@@ -1576,17 +1483,17 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080026284                func_80026284
                 0x0000000080026400                func_80026400
                 0x0000000080026430                func_80026430
- build/asm/272D0.s.o(.text)
- .text          0x00000000800266d0      0x330 build/asm/272D0.s.o
+ build/src/272D0.c.o(.text)
+ .text          0x00000000800266d0      0x330 build/src/272D0.c.o
                 0x00000000800266d0                func_800266D0
                 0x0000000080026774                func_80026774
                 0x00000000800269b8                func_800269B8
- build/asm/27600.s.o(.text)
- .text          0x0000000080026a00      0x490 build/asm/27600.s.o
+ build/src/27600.c.o(.text)
+ .text          0x0000000080026a00      0x490 build/src/27600.c.o
                 0x0000000080026a00                func_80026A00
                 0x0000000080026e20                func_80026E20
- build/asm/27A90.s.o(.text)
- .text          0x0000000080026e90     0x1290 build/asm/27A90.s.o
+ build/src/27A90.c.o(.text)
+ .text          0x0000000080026e90     0x1290 build/src/27A90.c.o
                 0x0000000080026e90                func_80026E90
                 0x0000000080026ee8                func_80026EE8
                 0x0000000080027070                func_80027070
@@ -1606,12 +1513,12 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080027cb4                func_80027CB4
                 0x0000000080027d40                func_80027D40
                 0x0000000080027ffc                func_80027FFC
- build/asm/28D20.s.o(.text)
- .text          0x0000000080028120      0x430 build/asm/28D20.s.o
+ build/src/28D20.c.o(.text)
+ .text          0x0000000080028120      0x430 build/src/28D20.c.o
                 0x0000000080028120                func_80028120
                 0x00000000800281f0                func_800281F0
- build/asm/29150.s.o(.text)
- .text          0x0000000080028550     0x1fa0 build/asm/29150.s.o
+ build/src/29150.c.o(.text)
+ .text          0x0000000080028550     0x1fa0 build/src/29150.c.o
                 0x0000000080028550                func_80028550
                 0x00000000800285c4                func_800285C4
                 0x0000000080028788                func_80028788
@@ -1654,8 +1561,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008002a38c                func_8002A38C
                 0x000000008002a410                func_8002A410
                 0x000000008002a458                func_8002A458
- build/asm/2B0F0.s.o(.text)
- .text          0x000000008002a4f0     0x86c0 build/asm/2B0F0.s.o
+ build/src/2B0F0.c.o(.text)
+ .text          0x000000008002a4f0     0x86c0 build/src/2B0F0.c.o
                 0x000000008002a4f0                func_8002A4F0
                 0x000000008002a558                func_8002A558
                 0x000000008002a6b8                func_8002A6B8
@@ -1755,8 +1662,8 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080032558                func_80032558
                 0x00000000800327bc                func_800327BC
                 0x00000000800329b0                func_800329B0
- build/asm/337B0.s.o(.text)
- .text          0x0000000080032bb0     0x2710 build/asm/337B0.s.o
+ build/src/337B0.c.o(.text)
+ .text          0x0000000080032bb0     0x2710 build/src/337B0.c.o
                 0x0000000080032bb0                func_80032BB0
                 0x0000000080032bf8                func_80032BF8
                 0x0000000080032d20                func_80032D20
@@ -1777,13 +1684,13 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008003509c                func_8003509C
                 0x000000008003521c                func_8003521C
                 0x000000008003522c                func_8003522C
- build/asm/35EC0.s.o(.text)
- .text          0x00000000800352c0      0x4f0 build/asm/35EC0.s.o
+ build/src/35EC0.c.o(.text)
+ .text          0x00000000800352c0      0x4f0 build/src/35EC0.c.o
                 0x00000000800352c0                func_800352C0
                 0x0000000080035308                func_80035308
                 0x0000000080035350                func_80035350
- build/asm/363B0.s.o(.text)
- .text          0x00000000800357b0      0xa00 build/asm/363B0.s.o
+ build/src/363B0.c.o(.text)
+ .text          0x00000000800357b0      0xa00 build/src/363B0.c.o
                 0x00000000800357b0                func_800357B0
                 0x0000000080035970                func_80035970
                 0x0000000080035a24                func_80035A24
@@ -1805,33 +1712,33 @@ LOAD build/assets/4C7B0.bin.o
                 0x0000000080036144                func_80036144
                 0x0000000080036164                func_80036164
                 0x0000000080036184                func_80036184
- build/asm/36DB0.s.o(.text)
- .text          0x00000000800361b0       0xb0 build/asm/36DB0.s.o
+ build/src/36DB0.c.o(.text)
+ .text          0x00000000800361b0       0xb0 build/src/36DB0.c.o
                 0x00000000800361b0                func_800361B0
                 0x00000000800361e8                func_800361E8
                 0x0000000080036220                func_80036220
- build/asm/36E60.s.o(.text)
- .text          0x0000000080036260      0x860 build/asm/36E60.s.o
+ build/src/36E60.c.o(.text)
+ .text          0x0000000080036260      0x860 build/src/36E60.c.o
                 0x0000000080036260                func_80036260
                 0x000000008003627c                func_8003627C
                 0x000000008003642c                func_8003642C
                 0x00000000800364f4                func_800364F4
                 0x0000000080036544                func_80036544
                 0x0000000080036664                func_80036664
- build/asm/376C0.s.o(.text)
- .text          0x0000000080036ac0      0x2c0 build/asm/376C0.s.o
+ build/src/376C0.c.o(.text)
+ .text          0x0000000080036ac0      0x2c0 build/src/376C0.c.o
                 0x0000000080036ac0                func_80036AC0
- build/asm/37980.s.o(.text)
- .text          0x0000000080036d80      0x150 build/asm/37980.s.o
+ build/src/37980.c.o(.text)
+ .text          0x0000000080036d80      0x150 build/src/37980.c.o
                 0x0000000080036d80                func_80036D80
- build/asm/37AD0.s.o(.text)
- .text          0x0000000080036ed0      0x370 build/asm/37AD0.s.o
+ build/src/37AD0.c.o(.text)
+ .text          0x0000000080036ed0      0x370 build/src/37AD0.c.o
                 0x0000000080036ed0                func_80036ED0
                 0x0000000080037020                func_80037020
                 0x000000008003719c                func_8003719C
                 0x0000000080037210                func_80037210
- build/asm/37E40.s.o(.text)
- .text          0x0000000080037240       0x70 build/asm/37E40.s.o
+ build/src/37E40.c.o(.text)
+ .text          0x0000000080037240       0x70 build/src/37E40.c.o
                 0x0000000080037240                func_80037240
  build/asm/37EB0.s.o(.text)
  .text          0x00000000800372b0       0x70 build/asm/37EB0.s.o
@@ -2530,99 +2437,68 @@ LOAD build/assets/4C7B0.bin.o
  build/src/1000.c.o(.data)
                 0x000000008004bbb0                _1130_c = .
  build/src/1130.c.o(.data)
-                0x000000008004bbb0                _1870_s = .
- build/asm/1870.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/1870.s.o
-                0x000000008004bbb0                _3B40_s = .
- build/asm/3B40.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/3B40.s.o
-                0x000000008004bbb0                _3F50_s = .
- build/asm/3F50.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/3F50.s.o
-                0x000000008004bbb0                _9D50_s = .
- build/asm/9D50.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/9D50.s.o
-                0x000000008004bbb0                DAE0_s = .
- build/asm/DAE0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/DAE0.s.o
-                0x000000008004bbb0                E2A0_s = .
- build/asm/E2A0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/E2A0.s.o
-                0x000000008004bbb0                _113F0_s = .
- build/asm/113F0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/113F0.s.o
-                0x000000008004bbb0                _13DE0_s = .
- build/asm/13DE0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/13DE0.s.o
-                0x000000008004bbb0                _140D0_s = .
- build/asm/140D0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/140D0.s.o
-                0x000000008004bbb0                _15150_s = .
- build/asm/15150.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/15150.s.o
-                0x000000008004bbb0                _17360_s = .
- build/asm/17360.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/17360.s.o
-                0x000000008004bbb0                _1B200_s = .
- build/asm/1B200.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/1B200.s.o
-                0x000000008004bbb0                _1E570_s = .
- build/asm/1E570.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/1E570.s.o
-                0x000000008004bbb0                _1FA00_s = .
- build/asm/1FA00.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/1FA00.s.o
-                0x000000008004bbb0                _20DA0_s = .
- build/asm/20DA0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/20DA0.s.o
-                0x000000008004bbb0                _216E0_s = .
- build/asm/216E0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/216E0.s.o
-                0x000000008004bbb0                _272D0_s = .
- build/asm/272D0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/272D0.s.o
-                0x000000008004bbb0                _27600_s = .
- build/asm/27600.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/27600.s.o
-                0x000000008004bbb0                _27A90_s = .
- build/asm/27A90.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/27A90.s.o
-                0x000000008004bbb0                _28D20_s = .
- build/asm/28D20.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/28D20.s.o
-                0x000000008004bbb0                _29150_s = .
- build/asm/29150.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/29150.s.o
-                0x000000008004bbb0                _2B0F0_s = .
- build/asm/2B0F0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/2B0F0.s.o
-                0x000000008004bbb0                _337B0_s = .
- build/asm/337B0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/337B0.s.o
-                0x000000008004bbb0                _35EC0_s = .
- build/asm/35EC0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/35EC0.s.o
-                0x000000008004bbb0                _363B0_s = .
- build/asm/363B0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/363B0.s.o
-                0x000000008004bbb0                _36DB0_s = .
- build/asm/36DB0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/36DB0.s.o
-                0x000000008004bbb0                _36E60_s = .
- build/asm/36E60.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/36E60.s.o
-                0x000000008004bbb0                _376C0_s = .
- build/asm/376C0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/376C0.s.o
-                0x000000008004bbb0                _37980_s = .
- build/asm/37980.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/37980.s.o
-                0x000000008004bbb0                _37AD0_s = .
- build/asm/37AD0.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/37AD0.s.o
-                0x000000008004bbb0                _37E40_s = .
- build/asm/37E40.s.o(.data)
- .data          0x000000008004bbb0        0x0 build/asm/37E40.s.o
+                0x000000008004bbb0                _1870_c = .
+ build/src/1870.c.o(.data)
+                0x000000008004bbb0                _3B40_c = .
+ build/src/3B40.c.o(.data)
+                0x000000008004bbb0                _3F50_c = .
+ build/src/3F50.c.o(.data)
+                0x000000008004bbb0                _9D50_c = .
+ build/src/9D50.c.o(.data)
+                0x000000008004bbb0                DAE0_c = .
+ build/src/DAE0.c.o(.data)
+                0x000000008004bbb0                E2A0_c = .
+ build/src/E2A0.c.o(.data)
+                0x000000008004bbb0                _113F0_c = .
+ build/src/113F0.c.o(.data)
+                0x000000008004bbb0                _13DE0_c = .
+ build/src/13DE0.c.o(.data)
+                0x000000008004bbb0                _140D0_c = .
+ build/src/140D0.c.o(.data)
+                0x000000008004bbb0                _15150_c = .
+ build/src/15150.c.o(.data)
+                0x000000008004bbb0                _17360_c = .
+ build/src/17360.c.o(.data)
+                0x000000008004bbb0                _1B200_c = .
+ build/src/1B200.c.o(.data)
+                0x000000008004bbb0                _1E570_c = .
+ build/src/1E570.c.o(.data)
+                0x000000008004bbb0                _1FA00_c = .
+ build/src/1FA00.c.o(.data)
+                0x000000008004bbb0                _20DA0_c = .
+ build/src/20DA0.c.o(.data)
+                0x000000008004bbb0                _216E0_c = .
+ build/src/216E0.c.o(.data)
+                0x000000008004bbb0                _272D0_c = .
+ build/src/272D0.c.o(.data)
+                0x000000008004bbb0                _27600_c = .
+ build/src/27600.c.o(.data)
+                0x000000008004bbb0                _27A90_c = .
+ build/src/27A90.c.o(.data)
+                0x000000008004bbb0                _28D20_c = .
+ build/src/28D20.c.o(.data)
+                0x000000008004bbb0                _29150_c = .
+ build/src/29150.c.o(.data)
+                0x000000008004bbb0                _2B0F0_c = .
+ build/src/2B0F0.c.o(.data)
+                0x000000008004bbb0                _337B0_c = .
+ build/src/337B0.c.o(.data)
+                0x000000008004bbb0                _35EC0_c = .
+ build/src/35EC0.c.o(.data)
+                0x000000008004bbb0                _363B0_c = .
+ build/src/363B0.c.o(.data)
+                0x000000008004bbb0                _36DB0_c = .
+ build/src/36DB0.c.o(.data)
+                0x000000008004bbb0                _36E60_c = .
+ build/src/36E60.c.o(.data)
+                0x000000008004bbb0                _376C0_c = .
+ build/src/376C0.c.o(.data)
+                0x000000008004bbb0                _37980_c = .
+ build/src/37980.c.o(.data)
+                0x000000008004bbb0                _37AD0_c = .
+ build/src/37AD0.c.o(.data)
+                0x000000008004bbb0                _37E40_c = .
+ build/src/37E40.c.o(.data)
                 0x000000008004bbb0                _37EB0_s = .
  build/asm/37EB0.s.o(.data)
  .data          0x000000008004bbb0        0x0 build/asm/37EB0.s.o
@@ -2991,37 +2867,37 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008004bbb0                main_RODATA_START = .
  build/src/1000.c.o(.rodata)
  build/src/1130.c.o(.rodata)
- build/asm/1870.s.o(.rodata)
- build/asm/3B40.s.o(.rodata)
- build/asm/3F50.s.o(.rodata)
- build/asm/9D50.s.o(.rodata)
- build/asm/DAE0.s.o(.rodata)
- build/asm/E2A0.s.o(.rodata)
- build/asm/113F0.s.o(.rodata)
- build/asm/13DE0.s.o(.rodata)
- build/asm/140D0.s.o(.rodata)
- build/asm/15150.s.o(.rodata)
- build/asm/17360.s.o(.rodata)
- build/asm/1B200.s.o(.rodata)
- build/asm/1E570.s.o(.rodata)
- build/asm/1FA00.s.o(.rodata)
- build/asm/20DA0.s.o(.rodata)
- build/asm/216E0.s.o(.rodata)
- build/asm/272D0.s.o(.rodata)
- build/asm/27600.s.o(.rodata)
- build/asm/27A90.s.o(.rodata)
- build/asm/28D20.s.o(.rodata)
- build/asm/29150.s.o(.rodata)
- build/asm/2B0F0.s.o(.rodata)
- build/asm/337B0.s.o(.rodata)
- build/asm/35EC0.s.o(.rodata)
- build/asm/363B0.s.o(.rodata)
- build/asm/36DB0.s.o(.rodata)
- build/asm/36E60.s.o(.rodata)
- build/asm/376C0.s.o(.rodata)
- build/asm/37980.s.o(.rodata)
- build/asm/37AD0.s.o(.rodata)
- build/asm/37E40.s.o(.rodata)
+ build/src/1870.c.o(.rodata)
+ build/src/3B40.c.o(.rodata)
+ build/src/3F50.c.o(.rodata)
+ build/src/9D50.c.o(.rodata)
+ build/src/DAE0.c.o(.rodata)
+ build/src/E2A0.c.o(.rodata)
+ build/src/113F0.c.o(.rodata)
+ build/src/13DE0.c.o(.rodata)
+ build/src/140D0.c.o(.rodata)
+ build/src/15150.c.o(.rodata)
+ build/src/17360.c.o(.rodata)
+ build/src/1B200.c.o(.rodata)
+ build/src/1E570.c.o(.rodata)
+ build/src/1FA00.c.o(.rodata)
+ build/src/20DA0.c.o(.rodata)
+ build/src/216E0.c.o(.rodata)
+ build/src/272D0.c.o(.rodata)
+ build/src/27600.c.o(.rodata)
+ build/src/27A90.c.o(.rodata)
+ build/src/28D20.c.o(.rodata)
+ build/src/29150.c.o(.rodata)
+ build/src/2B0F0.c.o(.rodata)
+ build/src/337B0.c.o(.rodata)
+ build/src/35EC0.c.o(.rodata)
+ build/src/363B0.c.o(.rodata)
+ build/src/36DB0.c.o(.rodata)
+ build/src/36E60.c.o(.rodata)
+ build/src/376C0.c.o(.rodata)
+ build/src/37980.c.o(.rodata)
+ build/src/37AD0.c.o(.rodata)
+ build/src/37E40.c.o(.rodata)
  build/asm/37EB0.s.o(.rodata)
  build/asm/37F20.s.o(.rodata)
  build/asm/38060.s.o(.rodata)
@@ -3151,68 +3027,37 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008004bbb0                main_BSS_START = .
  build/src/1000.c.o(.bss)
  build/src/1130.c.o(.bss)
- build/asm/1870.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/1870.s.o
- build/asm/3B40.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/3B40.s.o
- build/asm/3F50.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/3F50.s.o
- build/asm/9D50.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/9D50.s.o
- build/asm/DAE0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/DAE0.s.o
- build/asm/E2A0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/E2A0.s.o
- build/asm/113F0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/113F0.s.o
- build/asm/13DE0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/13DE0.s.o
- build/asm/140D0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/140D0.s.o
- build/asm/15150.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/15150.s.o
- build/asm/17360.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/17360.s.o
- build/asm/1B200.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/1B200.s.o
- build/asm/1E570.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/1E570.s.o
- build/asm/1FA00.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/1FA00.s.o
- build/asm/20DA0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/20DA0.s.o
- build/asm/216E0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/216E0.s.o
- build/asm/272D0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/272D0.s.o
- build/asm/27600.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/27600.s.o
- build/asm/27A90.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/27A90.s.o
- build/asm/28D20.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/28D20.s.o
- build/asm/29150.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/29150.s.o
- build/asm/2B0F0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/2B0F0.s.o
- build/asm/337B0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/337B0.s.o
- build/asm/35EC0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/35EC0.s.o
- build/asm/363B0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/363B0.s.o
- build/asm/36DB0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/36DB0.s.o
- build/asm/36E60.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/36E60.s.o
- build/asm/376C0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/376C0.s.o
- build/asm/37980.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/37980.s.o
- build/asm/37AD0.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/37AD0.s.o
- build/asm/37E40.s.o(.bss)
- .bss           0x000000008004bbb0        0x0 build/asm/37E40.s.o
+ build/src/1870.c.o(.bss)
+ build/src/3B40.c.o(.bss)
+ build/src/3F50.c.o(.bss)
+ build/src/9D50.c.o(.bss)
+ build/src/DAE0.c.o(.bss)
+ build/src/E2A0.c.o(.bss)
+ build/src/113F0.c.o(.bss)
+ build/src/13DE0.c.o(.bss)
+ build/src/140D0.c.o(.bss)
+ build/src/15150.c.o(.bss)
+ build/src/17360.c.o(.bss)
+ build/src/1B200.c.o(.bss)
+ build/src/1E570.c.o(.bss)
+ build/src/1FA00.c.o(.bss)
+ build/src/20DA0.c.o(.bss)
+ build/src/216E0.c.o(.bss)
+ build/src/272D0.c.o(.bss)
+ build/src/27600.c.o(.bss)
+ build/src/27A90.c.o(.bss)
+ build/src/28D20.c.o(.bss)
+ build/src/29150.c.o(.bss)
+ build/src/2B0F0.c.o(.bss)
+ build/src/337B0.c.o(.bss)
+ build/src/35EC0.c.o(.bss)
+ build/src/363B0.c.o(.bss)
+ build/src/36DB0.c.o(.bss)
+ build/src/36E60.c.o(.bss)
+ build/src/376C0.c.o(.bss)
+ build/src/37980.c.o(.bss)
+ build/src/37AD0.c.o(.bss)
+ build/src/37E40.c.o(.bss)
  build/asm/37EB0.s.o(.bss)
  .bss           0x000000008004bbb0        0x0 build/asm/37EB0.s.o
  build/asm/37F20.s.o(.bss)
