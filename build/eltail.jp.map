@@ -11,103 +11,103 @@ Discarded input sections
                 0x0000000000000000       0x10 build/asm/header.s.o
  .options       0x0000000000000000       0x20 build/src/1000.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1000.c.o
- .mdebug        0x0000000000000000     0xe458 build/src/1000.c.o
+ .mdebug        0x0000000000000000     0xe540 build/src/1000.c.o
  .options       0x0000000000000000       0x20 build/src/1130.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1130.c.o
- .mdebug        0x0000000000000000     0xec18 build/src/1130.c.o
+ .mdebug        0x0000000000000000     0xecfc build/src/1130.c.o
  .options       0x0000000000000000       0x20 build/src/1870.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1870.c.o
- .mdebug        0x0000000000000000     0xfa34 build/src/1870.c.o
+ .mdebug        0x0000000000000000     0xfb1c build/src/1870.c.o
  .options       0x0000000000000000       0x20 build/src/3B40.c.o
  .reginfo       0x0000000000000000       0x18 build/src/3B40.c.o
- .mdebug        0x0000000000000000     0xe6b0 build/src/3B40.c.o
+ .mdebug        0x0000000000000000     0xe798 build/src/3B40.c.o
  .options       0x0000000000000000       0x20 build/src/3F50.c.o
  .reginfo       0x0000000000000000       0x18 build/src/3F50.c.o
- .mdebug        0x0000000000000000    0x1258c build/src/3F50.c.o
+ .mdebug        0x0000000000000000    0x12674 build/src/3F50.c.o
  .options       0x0000000000000000       0x20 build/src/9D50.c.o
  .reginfo       0x0000000000000000       0x18 build/src/9D50.c.o
- .mdebug        0x0000000000000000    0x11424 build/src/9D50.c.o
+ .mdebug        0x0000000000000000    0x11508 build/src/9D50.c.o
  .options       0x0000000000000000       0x20 build/src/DAE0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/DAE0.c.o
- .mdebug        0x0000000000000000     0xea88 build/src/DAE0.c.o
+ .mdebug        0x0000000000000000     0xeb70 build/src/DAE0.c.o
  .options       0x0000000000000000       0x20 build/src/E2A0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/E2A0.c.o
- .mdebug        0x0000000000000000    0x10810 build/src/E2A0.c.o
+ .mdebug        0x0000000000000000    0x10ad4 build/src/E2A0.c.o
  .options       0x0000000000000000       0x20 build/src/113F0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/113F0.c.o
- .mdebug        0x0000000000000000    0x10440 build/src/113F0.c.o
+ .mdebug        0x0000000000000000    0x10524 build/src/113F0.c.o
  .options       0x0000000000000000       0x20 build/src/13DE0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/13DE0.c.o
- .mdebug        0x0000000000000000     0xe5f4 build/src/13DE0.c.o
+ .mdebug        0x0000000000000000     0xe6d8 build/src/13DE0.c.o
  .options       0x0000000000000000       0x20 build/src/140D0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/140D0.c.o
- .mdebug        0x0000000000000000     0xf328 build/src/140D0.c.o
+ .mdebug        0x0000000000000000     0xf410 build/src/140D0.c.o
  .options       0x0000000000000000       0x20 build/src/15150.c.o
  .reginfo       0x0000000000000000       0x18 build/src/15150.c.o
- .mdebug        0x0000000000000000     0xfad8 build/src/15150.c.o
+ .mdebug        0x0000000000000000     0xfbc0 build/src/15150.c.o
  .options       0x0000000000000000       0x20 build/src/17360.c.o
  .reginfo       0x0000000000000000       0x18 build/src/17360.c.o
- .mdebug        0x0000000000000000    0x11d9c build/src/17360.c.o
+ .mdebug        0x0000000000000000    0x11e84 build/src/17360.c.o
  .options       0x0000000000000000       0x20 build/src/1B200.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1B200.c.o
- .mdebug        0x0000000000000000    0x111e4 build/src/1B200.c.o
+ .mdebug        0x0000000000000000    0x112cc build/src/1B200.c.o
  .options       0x0000000000000000       0x20 build/src/1E570.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1E570.c.o
- .mdebug        0x0000000000000000     0xef28 build/src/1E570.c.o
+ .mdebug        0x0000000000000000     0xf010 build/src/1E570.c.o
  .options       0x0000000000000000       0x20 build/src/1FA00.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1FA00.c.o
- .mdebug        0x0000000000000000     0xf2c0 build/src/1FA00.c.o
+ .mdebug        0x0000000000000000     0xf3a8 build/src/1FA00.c.o
  .options       0x0000000000000000       0x20 build/src/20DA0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/20DA0.c.o
- .mdebug        0x0000000000000000     0xe9f0 build/src/20DA0.c.o
+ .mdebug        0x0000000000000000     0xead8 build/src/20DA0.c.o
  .options       0x0000000000000000       0x20 build/src/216E0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/216E0.c.o
- .mdebug        0x0000000000000000    0x12a0c build/src/216E0.c.o
+ .mdebug        0x0000000000000000    0x12af0 build/src/216E0.c.o
  .options       0x0000000000000000       0x20 build/src/272D0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/272D0.c.o
- .mdebug        0x0000000000000000     0xe5f4 build/src/272D0.c.o
+ .mdebug        0x0000000000000000     0xe6d8 build/src/272D0.c.o
  .options       0x0000000000000000       0x20 build/src/27600.c.o
  .reginfo       0x0000000000000000       0x18 build/src/27600.c.o
- .mdebug        0x0000000000000000     0xe60c build/src/27600.c.o
+ .mdebug        0x0000000000000000     0xe6f4 build/src/27600.c.o
  .options       0x0000000000000000       0x20 build/src/27A90.c.o
  .reginfo       0x0000000000000000       0x18 build/src/27A90.c.o
- .mdebug        0x0000000000000000     0xf4c8 build/src/27A90.c.o
+ .mdebug        0x0000000000000000     0xf5ac build/src/27A90.c.o
  .options       0x0000000000000000       0x20 build/src/28D20.c.o
  .reginfo       0x0000000000000000       0x18 build/src/28D20.c.o
- .mdebug        0x0000000000000000     0xe608 build/src/28D20.c.o
+ .mdebug        0x0000000000000000     0xe6f0 build/src/28D20.c.o
  .options       0x0000000000000000       0x20 build/src/29150.c.o
  .reginfo       0x0000000000000000       0x18 build/src/29150.c.o
- .mdebug        0x0000000000000000    0x102e8 build/src/29150.c.o
+ .mdebug        0x0000000000000000    0x103d0 build/src/29150.c.o
  .options       0x0000000000000000       0x20 build/src/2B0F0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/2B0F0.c.o
- .mdebug        0x0000000000000000    0x13a4c build/src/2B0F0.c.o
+ .mdebug        0x0000000000000000    0x13b34 build/src/2B0F0.c.o
  .options       0x0000000000000000       0x20 build/src/337B0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/337B0.c.o
- .mdebug        0x0000000000000000     0xfd8c build/src/337B0.c.o
+ .mdebug        0x0000000000000000     0xfe70 build/src/337B0.c.o
  .options       0x0000000000000000       0x20 build/src/35EC0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/35EC0.c.o
- .mdebug        0x0000000000000000     0xe6cc build/src/35EC0.c.o
+ .mdebug        0x0000000000000000     0xe7b4 build/src/35EC0.c.o
  .options       0x0000000000000000       0x20 build/src/363B0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/363B0.c.o
- .mdebug        0x0000000000000000     0xeff0 build/src/363B0.c.o
+ .mdebug        0x0000000000000000     0xf0d4 build/src/363B0.c.o
  .options       0x0000000000000000       0x20 build/src/36DB0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/36DB0.c.o
- .mdebug        0x0000000000000000     0xe518 build/src/36DB0.c.o
+ .mdebug        0x0000000000000000     0xe5fc build/src/36DB0.c.o
  .options       0x0000000000000000       0x20 build/src/36E60.c.o
  .reginfo       0x0000000000000000       0x18 build/src/36E60.c.o
- .mdebug        0x0000000000000000     0xe9e8 build/src/36E60.c.o
+ .mdebug        0x0000000000000000     0xead0 build/src/36E60.c.o
  .options       0x0000000000000000       0x20 build/src/376C0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/376C0.c.o
- .mdebug        0x0000000000000000     0xe478 build/src/376C0.c.o
+ .mdebug        0x0000000000000000     0xe55c build/src/376C0.c.o
  .options       0x0000000000000000       0x20 build/src/37980.c.o
  .reginfo       0x0000000000000000       0x18 build/src/37980.c.o
- .mdebug        0x0000000000000000     0xe3a0 build/src/37980.c.o
+ .mdebug        0x0000000000000000     0xe488 build/src/37980.c.o
  .options       0x0000000000000000       0x20 build/src/37AD0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/37AD0.c.o
- .mdebug        0x0000000000000000     0xe5ec build/src/37AD0.c.o
+ .mdebug        0x0000000000000000     0xe6d4 build/src/37AD0.c.o
  .options       0x0000000000000000       0x20 build/src/37E40.c.o
  .reginfo       0x0000000000000000       0x18 build/src/37E40.c.o
- .mdebug        0x0000000000000000     0xe398 build/src/37E40.c.o
+ .mdebug        0x0000000000000000     0xe47c build/src/37E40.c.o
  .reginfo       0x0000000000000000       0x18 build/asm/37EB0.s.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/asm/37EB0.s.o
@@ -4065,7 +4065,7 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008007a17a                D_8007A17A = 0x8007a17a
                 0x000000008007a17c                D_8007A17C = 0x8007a17c
                 0x000000008007a180                D_8007A180 = 0x8007a180
-                0x000000008007a184                D_8007A184 = 0x8007a184
+                0x000000008007a184                gMasterGfxPos = 0x8007a184
                 0x000000008007a188                D_8007A188 = 0x8007a188
                 0x000000008007a18c                D_8007A18C = 0x8007a18c
                 0x000000008007a190                D_8007A190 = 0x8007a190

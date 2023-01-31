@@ -1283,8 +1283,8 @@ glabel func_80003BE0
 
 glabel func_8000464C
 /* 524C 8000464C 27BDFFC8 */  addiu      $sp, $sp, -0x38
-/* 5250 80004650 3C058008 */  lui        $a1, %hi(D_8007A184)
-/* 5254 80004654 24A5A184 */  addiu      $a1, $a1, %lo(D_8007A184)
+/* 5250 80004650 3C058008 */  lui        $a1, %hi(gMasterGfxPos)
+/* 5254 80004654 24A5A184 */  addiu      $a1, $a1, %lo(gMasterGfxPos)
 /* 5258 80004658 AFBF0024 */  sw         $ra, 0x24($sp)
 /* 525C 8000465C AFA40038 */  sw         $a0, 0x38($sp)
 /* 5260 80004660 8CA30000 */  lw         $v1, 0x0($a1)

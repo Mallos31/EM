@@ -87,10 +87,10 @@ glabel func_8000CFD8
 /* DBEC 8000CFEC 3C098008 */  lui        $t1, %hi(D_8007C148)
 /* DBF0 8000CFF0 2529C148 */  addiu      $t1, $t1, %lo(D_8007C148)
 /* DBF4 8000CFF4 11C0003E */  beqz       $t6, .L8000D0F0
-/* DBF8 8000CFF8 3C0A8008 */   lui       $t2, %hi(D_8007A184)
+/* DBF8 8000CFF8 3C0A8008 */   lui       $t2, %hi(gMasterGfxPos)
 /* DBFC 8000CFFC 852F007C */  lh         $t7, 0x7C($t1)
 /* DC00 8000D000 3C08803B */  lui        $t0, %hi(D_803ABA58)
-/* DC04 8000D004 254AA184 */  addiu      $t2, $t2, %lo(D_8007A184)
+/* DC04 8000D004 254AA184 */  addiu      $t2, $t2, %lo(gMasterGfxPos)
 /* DC08 8000D008 000FC080 */  sll        $t8, $t7, 2
 /* DC0C 8000D00C 01184021 */  addu       $t0, $t0, $t8
 /* DC10 8000D010 8D08BA58 */  lw         $t0, %lo(D_803ABA58)($t0)
