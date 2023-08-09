@@ -1,0 +1,272 @@
+AS = mips-linux-gnu-as
+CPP = cpp
+LD = mips-linux-gnu-ld
+OBJDUMP = mips-linux-gnu-objdump
+OBJCOPY = mips-linux-gnu-objcopy
+OBJCOPYFLAGS = -O binary
+PYTHON = python3
+cflags = -G 0 -Xfullwarn -Xcpluscomm -signed -nostdinc -non_shared -Wab,-r4300_mul -D_LANGUAGE_C -D_FINALROM -DF3DEX_GBI -DWIN32 -woff 649,838
+include_cflags = -I . -I include -I include/2.0I -I include/2.0I/PR
+ido_cc = tools/ido_5.3/usr/lib/cc
+mips_version = -mips2 -o32
+DEFINES = -D_LANGUAGE_C -DF3DEX_GBI -DNDEBUG
+CFLAGS = -woff 649,838,513 $include_cflags
+ASM_PROC = python3 tools/asm-processor/build.py
+ASM_PROC_FLAGS = --input-enc=utf-8 --output-enc=euc-jp
+ASFLAGS = -EB -mtune=vr4300 -march=vr4300 -mabi=32 -Iinclude -Isrc
+XGCC = mips-linux-gnu-gcc
+IMG_CONVERT = tools/image_converter.py
+MAKE_EXPECTED = tools/make_expected.py
+LD_SCRIPT = eltail.ld
+LDFLAGS = -T $LD_SCRIPT -Map build/eltail.jp.map -T undefined_syms_auto.txt -T undefined_funcs_auto.txt -T undefined_syms.jp.txt --no-check-sections
+rule main_cc
+  command = $ASM_PROC $ASM_PROC_FLAGS $ido_cc -- $AS $ASFLAGS -- -c -32 $
+      $cflags $DEFINES $CFLAGS -O2 -g3 $mips_version -o $out $in
+  description = Compiling -O2 .c file
+rule O2g0_cc
+  command = $ASM_PROC $ASM_PROC_FLAGS $ido_cc -- $AS $ASFLAGS -- -c -32 $
+      $cflags $DEFINES $CFLAGS -O2 -g0 $mips_version -o $out $in
+  description = Compiling -O2 -g0 .c file
+rule O2_cc
+  command = $ASM_PROC $ASM_PROC_FLAGS $ido_cc -- $AS $ASFLAGS -- -c -32 $
+      $cflags $DEFINES $CFLAGS -O2 $mips_version -o $out $in
+  description = Compiling -O2 .c file
+rule O1_cc
+  command = $ASM_PROC $ASM_PROC_FLAGS $ido_cc -- $AS $ASFLAGS -- -c -32 $
+      $cflags $DEFINES $CFLAGS -O1 $mips_version -o $out $in
+  description = Compiling -O1 .c file
+rule s_file
+  command = iconv --from UTF-8 --to EUC-JP $in | $AS $ASFLAGS -o $out
+  description = Assembling .s file
+rule bin_file
+  command = $LD -r -b binary -o $out $in
+rule make_elf
+  command = $LD $LDFLAGS -o $out
+  description = Linking ELF
+rule make_z64
+  command = ($OBJCOPY -O binary $in $out) && (sha1sum -c eltail.jp.sha1)
+  description = Making z64
+rule make_expected
+  command = (cp $in $out) && (python3 ./$MAKE_EXPECTED $in)
+rule ia4_build
+  command = python3 ./$IMG_CONVERT ia4 $in $out
+  description = Converting ia4
+rule rgba16_convert
+  command = (python3 ./$IMG_CONVERT rgba16 $in $out)
+  description = Converting rgba16
+rule rgba16_build
+  command = ($LD -r -b binary -o $out $in)
+  description = Converting rgba16
+build build/src/337B0.c.o: main_cc src/337B0.c
+build build/src/3F50.c.o: main_cc src/3F50.c
+build build/src/15150.c.o: main_cc src/15150.c
+build build/src/3B40.c.o: main_cc src/3B40.c
+build build/src/36E60.c.o: main_cc src/36E60.c
+build build/src/36DB0.c.o: main_cc src/36DB0.c
+build build/src/27A90.c.o: main_cc src/27A90.c
+build build/src/2B0F0.c.o: main_cc src/2B0F0.c
+build build/src/37E40.c.o: main_cc src/37E40.c
+build build/src/363B0.c.o: main_cc src/363B0.c
+build build/src/216E0.c.o: main_cc src/216E0.c
+build build/src/1FA00.c.o: main_cc src/1FA00.c
+build build/src/1000.c.o: main_cc src/1000.c
+build build/src/1B200.c.o: main_cc src/1B200.c
+build build/src/27600.c.o: main_cc src/27600.c
+build build/src/29150.c.o: main_cc src/29150.c
+build build/src/1870.c.o: main_cc src/1870.c
+build build/src/1E570.c.o: main_cc src/1E570.c
+build build/src/E2A0.c.o: main_cc src/E2A0.c
+build build/src/1130.c.o: main_cc src/1130.c
+build build/src/376C0.c.o: main_cc src/376C0.c
+build build/src/17360.c.o: main_cc src/17360.c
+build build/src/113F0.c.o: main_cc src/113F0.c
+build build/src/272D0.c.o: main_cc src/272D0.c
+build build/src/140D0.c.o: main_cc src/140D0.c
+build build/src/35EC0.c.o: main_cc src/35EC0.c
+build build/src/13DE0.c.o: main_cc src/13DE0.c
+build build/src/20DA0.c.o: main_cc src/20DA0.c
+build build/src/DAE0.c.o: main_cc src/DAE0.c
+build build/src/28D20.c.o: main_cc src/28D20.c
+build build/src/37AD0.c.o: main_cc src/37AD0.c
+build build/src/37980.c.o: main_cc src/37980.c
+build build/src/9D50.c.o: main_cc src/9D50.c
+build build/asm/4AD10.s.o: s_file asm/4AD10.s
+build build/asm/41630.s.o: s_file asm/41630.s
+build build/asm/39110.s.o: s_file asm/39110.s
+build build/asm/472A0.s.o: s_file asm/472A0.s
+build build/asm/3DC90.s.o: s_file asm/3DC90.s
+build build/asm/3E4D0.s.o: s_file asm/3E4D0.s
+build build/asm/3DC30.s.o: s_file asm/3DC30.s
+build build/asm/3A790.s.o: s_file asm/3A790.s
+build build/asm/3DB80.s.o: s_file asm/3DB80.s
+build build/asm/477D0.s.o: s_file asm/477D0.s
+build build/asm/3EE20.s.o: s_file asm/3EE20.s
+build build/asm/494B0.s.o: s_file asm/494B0.s
+build build/asm/488F0.s.o: s_file asm/488F0.s
+build build/asm/3A2C0.s.o: s_file asm/3A2C0.s
+build build/asm/39820.s.o: s_file asm/39820.s
+build build/asm/49E60.s.o: s_file asm/49E60.s
+build build/asm/41240.s.o: s_file asm/41240.s
+build build/asm/3AA80.s.o: s_file asm/3AA80.s
+build build/asm/42BA0.s.o: s_file asm/42BA0.s
+build build/asm/49340.s.o: s_file asm/49340.s
+build build/asm/4AC70.s.o: s_file asm/4AC70.s
+build build/asm/3A550.s.o: s_file asm/3A550.s
+build build/asm/46FF0.s.o: s_file asm/46FF0.s
+build build/asm/39610.s.o: s_file asm/39610.s
+build build/asm/4C3F0.s.o: s_file asm/4C3F0.s
+build build/asm/3D1B0.s.o: s_file asm/3D1B0.s
+build build/asm/3DA70.s.o: s_file asm/3DA70.s
+build build/asm/47B40.s.o: s_file asm/47B40.s
+build build/asm/455C0.s.o: s_file asm/455C0.s
+build build/asm/41D70.s.o: s_file asm/41D70.s
+build build/asm/49EB0.s.o: s_file asm/49EB0.s
+build build/asm/3F960.s.o: s_file asm/3F960.s
+build build/asm/38E40.s.o: s_file asm/38E40.s
+build build/asm/3EC80.s.o: s_file asm/3EC80.s
+build build/asm/44550.s.o: s_file asm/44550.s
+build build/asm/3DBD0.s.o: s_file asm/3DBD0.s
+build build/asm/3D280.s.o: s_file asm/3D280.s
+build build/asm/3A830.s.o: s_file asm/3A830.s
+build build/asm/43810.s.o: s_file asm/43810.s
+build build/asm/3A360.s.o: s_file asm/3A360.s
+build build/asm/3A5D0.s.o: s_file asm/3A5D0.s
+build build/asm/38060.s.o: s_file asm/38060.s
+build build/asm/3FB90.s.o: s_file asm/3FB90.s
+build build/asm/3DA90.s.o: s_file asm/3DA90.s
+build build/asm/38A80.s.o: s_file asm/38A80.s
+build build/asm/476A0.s.o: s_file asm/476A0.s
+build build/asm/3B220.s.o: s_file asm/3B220.s
+build build/asm/3FC60.s.o: s_file asm/3FC60.s
+build build/asm/39BA0.s.o: s_file asm/39BA0.s
+build build/asm/3DCF0.s.o: s_file asm/3DCF0.s
+build build/asm/4A1B0.s.o: s_file asm/4A1B0.s
+build build/asm/3FBB0.s.o: s_file asm/3FBB0.s
+build build/asm/40710.s.o: s_file asm/40710.s
+build build/asm/49990.s.o: s_file asm/49990.s
+build build/asm/470C0.s.o: s_file asm/470C0.s
+build build/asm/47AC0.s.o: s_file asm/47AC0.s
+build build/asm/41250.s.o: s_file asm/41250.s
+build build/asm/4B960.s.o: s_file asm/4B960.s
+build build/asm/47740.s.o: s_file asm/47740.s
+build build/asm/40870.s.o: s_file asm/40870.s
+build build/asm/3C460.s.o: s_file asm/3C460.s
+build build/asm/38680.s.o: s_file asm/38680.s
+build build/asm/3A7D0.s.o: s_file asm/3A7D0.s
+build build/asm/37EB0.s.o: s_file asm/37EB0.s
+build build/asm/49700.s.o: s_file asm/49700.s
+build build/asm/49F10.s.o: s_file asm/49F10.s
+build build/asm/41660.s.o: s_file asm/41660.s
+build build/asm/40610.s.o: s_file asm/40610.s
+build build/asm/47210.s.o: s_file asm/47210.s
+build build/asm/49F00.s.o: s_file asm/49F00.s
+build build/asm/header.s.o: s_file asm/header.s
+build build/asm/38770.s.o: s_file asm/38770.s
+build build/asm/3E510.s.o: s_file asm/3E510.s
+build build/asm/3E8C0.s.o: s_file asm/3E8C0.s
+build build/asm/40C60.s.o: s_file asm/40C60.s
+build build/asm/474D0.s.o: s_file asm/474D0.s
+build build/asm/405B0.s.o: s_file asm/405B0.s
+build build/asm/47D70.s.o: s_file asm/47D70.s
+build build/asm/499C0.s.o: s_file asm/499C0.s
+build build/asm/497E0.s.o: s_file asm/497E0.s
+build build/asm/3C6F0.s.o: s_file asm/3C6F0.s
+build build/asm/3F510.s.o: s_file asm/3F510.s
+build build/asm/3E850.s.o: s_file asm/3E850.s
+build build/asm/38CB0.s.o: s_file asm/38CB0.s
+build build/asm/39330.s.o: s_file asm/39330.s
+build build/asm/3B170.s.o: s_file asm/3B170.s
+build build/asm/42D30.s.o: s_file asm/42D30.s
+build build/asm/41A70.s.o: s_file asm/41A70.s
+build build/asm/3C6B0.s.o: s_file asm/3C6B0.s
+build build/asm/38DB0.s.o: s_file asm/38DB0.s
+build build/asm/49AD0.s.o: s_file asm/49AD0.s
+build build/asm/49B30.s.o: s_file asm/49B30.s
+build build/asm/3F9C0.s.o: s_file asm/3F9C0.s
+build build/asm/3A4D0.s.o: s_file asm/3A4D0.s
+build build/asm/41230.s.o: s_file asm/41230.s
+build build/asm/44850.s.o: s_file asm/44850.s
+build build/asm/40670.s.o: s_file asm/40670.s
+build build/asm/3D1F0.s.o: s_file asm/3D1F0.s
+build build/asm/3EAA0.s.o: s_file asm/3EAA0.s
+build build/asm/3D9D0.s.o: s_file asm/3D9D0.s
+build build/asm/37F20.s.o: s_file asm/37F20.s
+build build/asm/3B230.s.o: s_file asm/3B230.s
+build build/asm/42D20.s.o: s_file asm/42D20.s
+build build/asm/40750.s.o: s_file asm/40750.s
+build build/asm/438B0.s.o: s_file asm/438B0.s
+build build/asm/39E30.s.o: s_file asm/39E30.s
+build build/asm/4ACF0.s.o: s_file asm/4ACF0.s
+build build/asm/41E40.s.o: s_file asm/41E40.s
+build build/asm/3A980.s.o: s_file asm/3A980.s
+build build/asm/3DB20.s.o: s_file asm/3DB20.s
+build build/asm/42B00.s.o: s_file asm/42B00.s
+build build/asm/3A680.s.o: s_file asm/3A680.s
+build build/asm/382F0.s.o: s_file asm/382F0.s
+build build/asm/3F2A0.s.o: s_file asm/3F2A0.s
+build build/asm/38AF0.s.o: s_file asm/38AF0.s
+build build/asm/382C0.s.o: s_file asm/382C0.s
+build build/asm/415A0.s.o: s_file asm/415A0.s
+build build/asm/41D80.s.o: s_file asm/41D80.s
+build build/asm/454B0.s.o: s_file asm/454B0.s
+build build/asm/3D2C0.s.o: s_file asm/3D2C0.s
+build build/asm/38D30.s.o: s_file asm/38D30.s
+build build/asm/47610.s.o: s_file asm/47610.s
+build build/assets/boot.bin.o: bin_file assets/boot.bin
+build build/assets/4C580.bin.o: bin_file assets/4C580.bin
+build build/assets/4C7B0.bin.o: bin_file assets/4C7B0.bin
+build build/eltail.jp.elf: make_elf  build/src/337B0.c.o build/src/3F50.c.o $
+    build/src/15150.c.o build/src/3B40.c.o build/src/36E60.c.o $
+    build/src/36DB0.c.o build/src/27A90.c.o build/src/2B0F0.c.o $
+    build/src/37E40.c.o build/src/363B0.c.o build/src/216E0.c.o $
+    build/src/1FA00.c.o build/src/1000.c.o build/src/1B200.c.o $
+    build/src/27600.c.o build/src/29150.c.o build/src/1870.c.o $
+    build/src/1E570.c.o build/src/E2A0.c.o build/src/1130.c.o $
+    build/src/376C0.c.o build/src/17360.c.o build/src/113F0.c.o $
+    build/src/272D0.c.o build/src/140D0.c.o build/src/35EC0.c.o $
+    build/src/13DE0.c.o build/src/20DA0.c.o build/src/DAE0.c.o $
+    build/src/28D20.c.o build/src/37AD0.c.o build/src/37980.c.o $
+    build/src/9D50.c.o build/asm/4AD10.s.o build/asm/41630.s.o $
+    build/asm/39110.s.o build/asm/472A0.s.o build/asm/3DC90.s.o $
+    build/asm/3E4D0.s.o build/asm/3DC30.s.o build/asm/3A790.s.o $
+    build/asm/3DB80.s.o build/asm/477D0.s.o build/asm/3EE20.s.o $
+    build/asm/494B0.s.o build/asm/488F0.s.o build/asm/3A2C0.s.o $
+    build/asm/39820.s.o build/asm/49E60.s.o build/asm/41240.s.o $
+    build/asm/3AA80.s.o build/asm/42BA0.s.o build/asm/49340.s.o $
+    build/asm/4AC70.s.o build/asm/3A550.s.o build/asm/46FF0.s.o $
+    build/asm/39610.s.o build/asm/4C3F0.s.o build/asm/3D1B0.s.o $
+    build/asm/3DA70.s.o build/asm/47B40.s.o build/asm/455C0.s.o $
+    build/asm/41D70.s.o build/asm/49EB0.s.o build/asm/3F960.s.o $
+    build/asm/38E40.s.o build/asm/3EC80.s.o build/asm/44550.s.o $
+    build/asm/3DBD0.s.o build/asm/3D280.s.o build/asm/3A830.s.o $
+    build/asm/43810.s.o build/asm/3A360.s.o build/asm/3A5D0.s.o $
+    build/asm/38060.s.o build/asm/3FB90.s.o build/asm/3DA90.s.o $
+    build/asm/38A80.s.o build/asm/476A0.s.o build/asm/3B220.s.o $
+    build/asm/3FC60.s.o build/asm/39BA0.s.o build/asm/3DCF0.s.o $
+    build/asm/4A1B0.s.o build/asm/3FBB0.s.o build/asm/40710.s.o $
+    build/asm/49990.s.o build/asm/470C0.s.o build/asm/47AC0.s.o $
+    build/asm/41250.s.o build/asm/4B960.s.o build/asm/47740.s.o $
+    build/asm/40870.s.o build/asm/3C460.s.o build/asm/38680.s.o $
+    build/asm/3A7D0.s.o build/asm/37EB0.s.o build/asm/49700.s.o $
+    build/asm/49F10.s.o build/asm/41660.s.o build/asm/40610.s.o $
+    build/asm/47210.s.o build/asm/49F00.s.o build/asm/header.s.o $
+    build/asm/38770.s.o build/asm/3E510.s.o build/asm/3E8C0.s.o $
+    build/asm/40C60.s.o build/asm/474D0.s.o build/asm/405B0.s.o $
+    build/asm/47D70.s.o build/asm/499C0.s.o build/asm/497E0.s.o $
+    build/asm/3C6F0.s.o build/asm/3F510.s.o build/asm/3E850.s.o $
+    build/asm/38CB0.s.o build/asm/39330.s.o build/asm/3B170.s.o $
+    build/asm/42D30.s.o build/asm/41A70.s.o build/asm/3C6B0.s.o $
+    build/asm/38DB0.s.o build/asm/49AD0.s.o build/asm/49B30.s.o $
+    build/asm/3F9C0.s.o build/asm/3A4D0.s.o build/asm/41230.s.o $
+    build/asm/44850.s.o build/asm/40670.s.o build/asm/3D1F0.s.o $
+    build/asm/3EAA0.s.o build/asm/3D9D0.s.o build/asm/37F20.s.o $
+    build/asm/3B230.s.o build/asm/42D20.s.o build/asm/40750.s.o $
+    build/asm/438B0.s.o build/asm/39E30.s.o build/asm/4ACF0.s.o $
+    build/asm/41E40.s.o build/asm/3A980.s.o build/asm/3DB20.s.o $
+    build/asm/42B00.s.o build/asm/3A680.s.o build/asm/382F0.s.o $
+    build/asm/3F2A0.s.o build/asm/38AF0.s.o build/asm/382C0.s.o $
+    build/asm/415A0.s.o build/asm/41D80.s.o build/asm/454B0.s.o $
+    build/asm/3D2C0.s.o build/asm/38D30.s.o build/asm/47610.s.o $
+    build/assets/boot.bin.o build/assets/4C580.bin.o build/assets/4C7B0.bin.o
+build build/eltail.jp.z64: make_z64  build/eltail.jp.elf
+build build/eltail.jp.ok: make_expected  build/eltail.jp.z64
