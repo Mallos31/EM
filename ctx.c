@@ -196,6 +196,7 @@
 #define G_RM_OPA_CI2 RM_OPA_CI(2)
 #define G_RM_RA_ZB_OPA_INTER2 RM_RA_ZB_OPA_INTER(2)
 #define FTOFRAC8(x) ((int) MIN(((x) * (128.0f)), 127.0f) & 0xff)
+#define _VARIABLES_H_ 
 #define G_IM_SIZ_32b_BYTES 4
 #define DPC_STATUS_FREEZE 0x002
 #define MQ_IS_FULL(mq) (MQ_GET_COUNT(mq) >= (mq)->msgCount)
@@ -3834,48 +3835,22 @@ typedef struct {
     s16 ID;
     u16 unk16;
 }mapObjectData;
-typedef struct {
-    s32 timer;
-    s32 unk4;
-    s32 unk8;
-    s32 unkC;
-    mapObjectData* data;
-    f32 unk14;
-    f32 rot;
-}Door;
-extern Door D_80084238;
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000D6A0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000DDBC.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000DE54.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000E81C.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000EEA8.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000F34C.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000F4A0.s")
-s32 func_8000F4C8(void* arg0) {
-    s32 var_v1;
-    Door* doorData;
-    var_v1 = 4;
-    doorData = &D_80084238;
-    while(var_v1 != 0){
-        if ((doorData->timer != 0) && (arg0 == doorData->data)) {
-            var_v1 = 5 - var_v1;
-            break;
-        }
-            var_v1--;
-            doorData++;
-            }
-    return var_v1;
-}
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000F50C.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000F5DC.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000F740.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FA9C.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FBB4.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FC50.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FCE0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FD54.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FDA8.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_8000FF18.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_80010104.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_800104C0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/E2A0/func_80010768.s")
+extern Gfx* D_8008A184;
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800134D0.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013500.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800136B8.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013808.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800139EC.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013A50.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013B20.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013B60.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013BA0.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013BD0.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013D08.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013E4C.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013FA4.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800140B0.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800140F0.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80014130.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80014318.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800144B4.s")

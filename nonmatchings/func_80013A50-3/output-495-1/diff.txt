@@ -1,0 +1,25 @@
+--- before
++++ after
+@@ -13,10 +13,11 @@
+ {
+   u8 var_a0;
+   u8 *var_v0;
++  u8 new_var;
+   u8 *var_v1;
+   var_v0 = D_8004DF00;
+   var_v1 = &D_8007B430;
+-  while ((var_a0 = *var_v0) != 0xFF)
++  while ((var_a0 = (*var_v0) & 0xFFu) != 0xFF)
+   {
+     *var_v1 = *var_v0;
+     var_v1++;
+@@ -39,7 +40,8 @@
+     var_v0++;
+   }
+ 
+-  *var_v1 = *var_v0;
++  new_var = *var_v0;
++  *var_v1 = new_var;
+   D_8007B8E0 = 0xFF;
+ }
+ 

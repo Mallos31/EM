@@ -1,0 +1,18 @@
+--- before
++++ after
+@@ -12,11 +12,13 @@
+ void func_80013A50(s32 arg0)
+ {
+   u8 var_a0;
++  u8 *new_var;
+   u8 *var_v0;
+   u8 *var_v1;
+   var_v0 = D_8004DF00;
+-  var_v1 = &D_8007B430;
+-  while ((var_a0 = *var_v0) != 0xFF)
++  new_var = &D_8007B430;
++  var_v1 = new_var;
++  while (((var_a0 = *var_v0) & 0xFF) != 0xFF)
+   {
+     *var_v1 = *var_v0;
+     var_v1++;

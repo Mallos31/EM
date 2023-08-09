@@ -1,5 +1,11 @@
 #include "common.h"
 
+extern u8* D_803AB288[];
+extern u8 D_8004DF00[];
+extern u8 D_8004DF08;
+extern u8 D_8007B430;
+extern s8 D_8007B8E0;
+
 #pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800134D0.s")
 
 #pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013500.s")

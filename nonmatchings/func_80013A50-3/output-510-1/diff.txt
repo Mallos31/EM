@@ -1,0 +1,11 @@
+--- before
++++ after
+@@ -18,7 +18,7 @@
+   var_v1 = &D_8007B430;
+   while ((var_a0 = *var_v0) != 0xFF)
+   {
+-    *var_v1 = *var_v0;
++    *var_v1 = (*var_v0) & 0xFFFFFFFFFFFFFFFFu;
+     var_v1++;
+     var_v0++;
+   }

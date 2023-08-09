@@ -1,0 +1,6 @@
+//creates a context file for the C file you're working with and copies it to the clipboard. Put filename before ".c &&"
+python3 ./tools/m2ctx.py ./src/.c && xclip -sel c < ctx.c
+
+
+python3 ./tools/decomp-permuter/import.py ./src/.c ./asm/nonmatchings//.s  //import script for decomp permuter. Add your C file name before .c and between the slashes. Add the function name before .s
+python3 ./tools/decomp-permuter/permuter.py ./nonmatchings/ --best-only    //permuter script. Add function name after nonmatchings/

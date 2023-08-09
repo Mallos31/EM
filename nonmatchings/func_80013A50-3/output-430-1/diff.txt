@@ -1,0 +1,10 @@
+--- before
++++ after
+@@ -29,6 +29,7 @@
+     *var_v1 = var_a0;
+     var_v1++;
+     var_v0++;
++    var_v0 = &D_8004DF08;
+   }
+ 
+   var_v0 = &D_8004DF08;

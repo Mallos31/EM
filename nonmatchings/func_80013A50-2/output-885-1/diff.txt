@@ -1,0 +1,44 @@
+--- before
++++ after
+@@ -11,12 +11,14 @@
+ extern s8 D_8007B8E0;
+ void func_80013A50(s32 arg0)
+ {
++  int new_var;
+   u8 var_a0;
+   u8 *var_v0;
+   u8 *var_v1;
++  new_var = 0xFF;
+   var_v1 = &D_8007B430;
+   var_v0 = D_8004DF00;
+-  while ((var_a0 = *var_v0) != 0xFF)
++  while ((var_a0 = *var_v0) != new_var)
+   {
+     *var_v1 = *var_v0;
+     var_v1++;
+@@ -24,7 +26,7 @@
+   }
+ 
+   var_v0 = D_803AB288[arg0];
+-  while ((var_a0 = *var_v0) != 0xFF)
++  while ((var_a0 = *var_v0) != new_var)
+   {
+     *var_v1 = var_a0;
+     var_v1++;
+@@ -32,7 +34,7 @@
+   }
+ 
+   var_v0 = &D_8004DF08;
+-  while ((var_a0 = *var_v0) != 0xFF)
++  while ((var_a0 = *var_v0) != new_var)
+   {
+     *var_v1 = var_a0;
+     var_v1++;
+@@ -40,6 +42,6 @@
+   }
+ 
+   *var_v1 = *var_v0;
+-  D_8007B8E0 = 0xFF;
++  D_8007B8E0 = new_var;
+ }
+ 
