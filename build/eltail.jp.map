@@ -29,7 +29,7 @@ Discarded input sections
  .mdebug        0x0000000000000000    0x11730 build/src/9D50.c.o
  .options       0x0000000000000000       0x20 build/src/DAE0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/DAE0.c.o
- .mdebug        0x0000000000000000     0xed94 build/src/DAE0.c.o
+ .mdebug        0x0000000000000000     0xedc4 build/src/DAE0.c.o
  .options       0x0000000000000000       0x20 build/src/E2A0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/E2A0.c.o
  .mdebug        0x0000000000000000    0x10890 build/src/E2A0.c.o
@@ -50,13 +50,13 @@ Discarded input sections
  .mdebug        0x0000000000000000    0x120a4 build/src/17360.c.o
  .options       0x0000000000000000       0x20 build/src/1B200.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1B200.c.o
- .mdebug        0x0000000000000000    0x11180 build/src/1B200.c.o
+ .mdebug        0x0000000000000000    0x11368 build/src/1B200.c.o
  .options       0x0000000000000000       0x20 build/src/1E570.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1E570.c.o
- .mdebug        0x0000000000000000     0xf230 build/src/1E570.c.o
+ .mdebug        0x0000000000000000     0xf624 build/src/1E570.c.o
  .options       0x0000000000000000       0x20 build/src/1FA00.c.o
  .reginfo       0x0000000000000000       0x18 build/src/1FA00.c.o
- .mdebug        0x0000000000000000     0xf508 build/src/1FA00.c.o
+ .mdebug        0x0000000000000000     0xf754 build/src/1FA00.c.o
  .options       0x0000000000000000       0x20 build/src/20DA0.c.o
  .reginfo       0x0000000000000000       0x18 build/src/20DA0.c.o
  .mdebug        0x0000000000000000     0xecf8 build/src/20DA0.c.o
@@ -4858,4 +4858,6 @@ LOAD build/assets/4C7B0.bin.o
                 0x000000008020c15c                func_8020C15C = 0x8020c15c
                 0x000000008020c16c                func_8020C16C = 0x8020c16c
                 0x000000008008a184                D_8008A184 = 0x8008a184
+                0x00000000800842e8                gAllowBattles = 0x800842e8
+                0x000000008008be52                gBattleState = 0x8008be52
 OUTPUT(build/eltail.jp.elf elf32-tradbigmips)

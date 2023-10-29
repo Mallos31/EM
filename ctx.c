@@ -3836,21 +3836,15 @@ typedef struct {
     u16 unk16;
 }mapObjectData;
 extern Gfx* D_8008A184;
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800134D0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013500.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800136B8.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013808.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800139EC.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013A50.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013B20.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013B60.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013BA0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013BD0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013D08.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013E4C.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80013FA4.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800140B0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800140F0.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80014130.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_80014318.s")
-#pragma GLOBAL_ASM("asm/nonmatchings/140D0/func_800144B4.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001EE00.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001EE94.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001F164.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001F36C.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001F888.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001FC14.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001FD44.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001FE08.s")
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_8001FF10.s")
+void func_800200F0(void) {
+}
+#pragma GLOBAL_ASM("asm/nonmatchings/1FA00/func_800200F8.s")

@@ -1,6 +1,12 @@
 #include "common.h"
 
-#pragma GLOBAL_ASM("asm/nonmatchings/DAE0/func_8000CEE0.s")
+extern s8 D_8007C13C;
+
+
+//#pragma GLOBAL_ASM("asm/nonmatchings/DAE0/func_8000CEE0.s")
+void func_8000CEE0(void) {
+    D_8007C13C = 0;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/DAE0/func_8000CEF0.s")
 

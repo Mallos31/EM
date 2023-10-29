@@ -1,10 +1,39 @@
+/*same as 191F0.c from Quest64*/
 #include "common.h"
+
+typedef struct { 
+    s32 unk0;
+    void* JJPos;
+    s32 unk8;
+    char unkC[4];
+    s32 unk10;
+    char unk14[4];
+    s32 unk18;
+    char unk1C[4];
+}unk86400s;
+
+extern unk86400s D_80086400[];
 
 #pragma GLOBAL_ASM("asm/nonmatchings/1B200/func_8001A600.s")
 
 #pragma GLOBAL_ASM("asm/nonmatchings/1B200/func_8001A658.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/1B200/func_8001A6B4.s")
+//#pragma GLOBAL_ASM("asm/nonmatchings/1B200/func_8001A6B4.s")
+void func_8001A6B4(void) {
+    s32 var_v0;
+    unk86400s* var_v1;
+
+    var_v0 = 8;
+    var_v1 = D_80086400;
+    do {
+        var_v0 -= 4;
+        var_v1->unk0 = 0;
+        var_v1->unk8 = 0;
+        var_v1->unk10 = 0;
+        var_v1->unk18 = 0;
+        var_v1++;
+    } while (var_v0 != 0);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/1B200/func_8001A6E4.s")
 
